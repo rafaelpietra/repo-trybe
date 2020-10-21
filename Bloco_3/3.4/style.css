@@ -1,0 +1,10 @@
+header {
+    background-color: rgb(124, 188, 204);
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+}
