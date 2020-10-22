@@ -1,10 +1,39 @@
+* {
+    margin-top: 0;
+}
 header {
     background-color: rgb(124, 188, 204);
     text-align: center;
+    width: auto;
+
 }
 
 header li {
     display: inline-block;
-    border: 1px solid black;
     width: 100px;
+    color: white;
+    font-weight: 800;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.test-border {
+    border: solid 1px red
+}
+
+.main-content {
+    margin: 20px;
+}
+
+table {
+    align-content: center;
+    margin: auto;
+    /* margin-left: 15px; */
+}
+table td{
+    width: 100px;
+    border: black solid 1px;
+    text-align: center;
 }
