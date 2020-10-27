@@ -3,7 +3,10 @@ let oddNumber = 0;
 
 for (let i = 0; i < numbers.length; i +=1) {
     if(numbers[i] % 2 == 1) {
-        oddNumber += 1;
-    }
+       oddNumber += 1;
+    } 
+}  if( oddNumber != 0) {
+    console.log(oddNumber)
+} else {
+   console.log('Nenhum valor ímpar encontrado');
 }
-console.log(oddNumber);
