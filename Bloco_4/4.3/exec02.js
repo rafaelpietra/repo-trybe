@@ -1,7 +1,7 @@
 let nAsterisco = 5;
-let saida = '';
-let simbolo = '*';
-for(let index = 1; index <= 5; index +=1) {
-    saida += simbolo;
-    console.log(saida);
+let output = '';
+let symbol = '*';
+for(let line = 1; line <= 5; line +=1) {
+    output += symbol;
+    console.log(output);
 }
