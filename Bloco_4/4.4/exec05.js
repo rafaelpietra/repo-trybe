@@ -13,6 +13,10 @@ let info = {
   };
   for (let key in info) {
       if (
-          info
-      )
-  } e
+          info[key] === info.recorrente && info2[key] === info2.recorrente && info[key] === "Sim" && info2[key] === "Sim"
+      ) {
+          console.log("Ambos recorrentes")
+      } else {
+          console.log(info[key] + " e " + info2[key])
+      }
+  } 
